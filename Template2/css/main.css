@@ -1,0 +1,479 @@
+/*Start main rules*/
+body
+{
+    font-family: sans-serif, Tahoma , Arial;
+    line-height: 1.5em;
+    color:#777777;
+}
+
+.container
+{
+    width: 1170px;
+    margin: auto;
+}
+
+.clear
+{
+   clear: both
+}
+
+/*End main rules*/
+
+
+
+/*Start Header*/
+.slider 
+{
+    background-image: url('../images/slider.jpg');
+    height: 550px;
+    background-size: cover;
+}
+
+.slider .title
+{
+    width: 1170px;
+    margin: auto;
+    text-align: center;
+    padding-top: 200px
+}
+
+.slider .title h1 , .slider .title a
+{
+    margin: 30px auto;
+    color: #FFF;
+    background: transparent;
+}
+
+.slider .title h1
+{
+    font-size: 50px;
+    border-bottom: 4px solid #FFF;
+    border-top: 4px solid #FFF;
+    width: 600px;
+    padding: 20px 0
+}
+
+.slider .title a
+{
+    display: block;
+    border: 2px solid #FFF;
+    width: 180px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 30px;
+    margin: 20px auto;
+    text-decoration: none;
+}
+
+.navbar
+{
+    background: #252F31;
+    color: #FFF;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.navbar h2
+{
+    float: left;
+    font-size: 25px
+}
+
+.navbar h2 span
+{
+    color: #2BC780;
+}
+
+.navbar ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+.navbar ul li
+{
+    display: inline-block;    
+}
+
+.navbar ul li a
+{
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 20px;
+    margin: 0
+    
+}
+
+.navbar ul li  .active , 
+.navbar ul li a:hover
+{
+    color: #30B564;
+    background: #0D191C;
+    
+
+}
+/*End Header*/
+
+
+
+/*Start content*/
+
+.features
+{
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.features .feature
+{
+    width: 30.33333%;
+    float: left;
+    margin-left: 1%;
+    
+}
+
+
+
+/*Start about */
+.profile
+{
+    background: #F2F2F2;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.profile .image 
+{
+    float: left;
+    width: 39%
+    
+}
+
+.profile .about
+{
+     float: left;
+    margin-left: 3%;
+    width: 58%
+}
+
+.profile .image img
+{
+    width: 100%
+}
+
+.profile .about .jobs .job
+{
+    width: 45%;
+    float: left;
+    overflow: hidden;
+    margin: 10px 5% 0 0; 
+}
+
+.profile .about .jobs .job i 
+{
+    float: left;
+    width: 15%;
+    margin: 60px 5% 0 0;
+    color: #2DCC70;
+    font-size: 30px
+}
+
+.profile .about .jobs .job > div
+{
+   float: left;
+   width: 80% 
+}
+/*End About*/
+
+/*Start Skills*/
+.skills
+{
+    overflow: hidden;
+    margin-top: 40px; 
+}
+
+.skills .info , .skills .progress
+{
+    width: 45%;
+    float: left;
+    margin:0 2.5%
+}
+
+.skills .info p:last-of-type
+{
+    margin-top: 30px
+}
+
+.skills .info button
+{
+    color: #2DCC70;
+    font-weight: 700;
+    background: none;
+    padding: 10px 25px;
+    margin-top: 20px;
+    border: 3px solid #2DCC70;
+    cursor: pointer;
+    
+}
+
+.skills .progress .skill .prog-gray
+{
+    background: #F2F2F2;
+}
+
+.skills .progress .skill .prog-gray .prog-green
+{
+    text-align: right;
+    background: #2DCC70;
+    color: #FFF;
+    font-weight: 700;
+    padding-right: 1%;
+}
+
+.skills .progress .skill .prog-gray .prog-83
+{
+    width: 83%;
+}
+
+.skills .progress .skill .prog-gray .prog-88
+{
+    width: 88%;
+}
+
+.skills .progress .skill .prog-gray .prog-90
+{
+    width: 90%;
+}
+
+.skills .progress .skill .prog-gray .prog-78
+{
+    width: 78%;
+}
+/*End Skills*/
+
+/*Start Resume*/
+.resume
+{
+    background: #F2F2F2;
+    text-align: center;
+    padding: 60px 0;
+    margin: 70px 0;
+    
+}
+
+.resume button
+{
+    color: #2DCC70;
+    font-weight: 700;
+    background: none;
+    padding: 10px 25px;
+    margin-top: 20px;
+    border: 3px solid #2DCC70;
+    cursor: pointer;
+}
+/*End Resume*/
+
+/*Start education*/
+.education
+{
+    overflow: hidden;
+    margin-top: 40px; 
+}
+
+.education .info , .education .diplomas
+{
+    width: 50%;
+    float: left;
+
+}
+
+.education .diplomas .diploma
+{
+ margin: 50px 40px;
+}
+
+.education .diplomas .diploma .green-bg
+{
+    background: #2DCC70;
+    color: #FFF;
+    padding: 5px 10px
+}
+
+.education hr
+{
+    background-color: #999;
+    margin: 30px 0;
+    height: 1px;
+    border: none;
+    
+}
+/*End education*/
+
+/*Start experience*/
+.experience
+{
+    overflow: hidden;
+    margin-top: 40px; 
+}
+
+.experience .info , .experience .diplomas
+{
+    width: 50%;
+    float: left
+}
+/*End experience*/
+
+/*Start testimonials*/
+.testimonials
+{
+    background: #F2F2F2;
+    text-align: center;
+    padding: 50px 0 ;
+    margin: 70px 0
+    
+}
+
+.testimonials q
+{
+   font: italic 700 18px/1.8em Arial, Tahoma;
+}
+.testimonials ul
+{
+   padding: 0;
+   
+}
+.testimonials ul li
+{
+   display: inline-block;
+   width: 15px;
+   height: 15px;
+   border: 2px solid #2DCC70;
+   margin-left: 5px;
+}
+
+.testimonials ul li:hover , .testimonials ul li.active
+{
+   background: #2DCC70
+}
+/*End testimonials*/
+
+/*Start portfolio*/
+.portfolio
+{
+    overflow: hidden;
+    text-align: center;
+}
+
+.portfolio .ourwork > div
+{
+    width: 27.333333%;
+    margin: 25px  2%;
+    float: left;
+}
+
+.portfolio .ourwork > div img
+{
+    display: block;
+    width: 100%;
+    padding: 2px;
+    border: 1px solid #AAA;
+    cursor: pointer;
+}
+/*End portfolio*/
+/*End content*/
+
+/*Start Footer*/
+
+/*Start contact*/
+.contact 
+{
+    overflow: hidden;
+    margin-top: 60px;
+    padding-top: 40px;
+    background: #252F31
+}
+
+.contact .info , .contact form
+{
+   width: 45%; 
+   float: left; 
+}
+
+.contact .info h2
+{
+   color: #FFF;
+}
+
+.contact .info p span
+{
+   color: #D1D6DA
+}
+
+.contact form 
+{
+   margin-left: 10%;
+}
+
+.contact form input ,.contact form textarea
+{
+   background: #4B5557;
+   border: none;
+   width: 80%;
+   margin-bottom: 20px 
+}
+
+.contact form textarea{min-height: 150px}
+
+.contact form input{min-height: 30px}
+.contact form label
+{
+   color: #D1D6DA;
+}
+
+.contact form label ,.contact form input
+{
+    display: block  
+}
+
+.contact form input[type="submit"]
+{
+   width: 150px;
+   color: #FFF;
+   background: #191E22;
+   padding: 15px 15px;
+   cursor: pointer
+}
+/*End contact*/
+
+/*Start copyright*/
+.footer .copyright
+{
+   overflow: hidden;
+   background: #191E22
+}
+
+.footer .copyright p
+{
+   float: left;
+}
+
+.footer .copyright .icons
+{
+   float: right;
+   font-size: 30px;
+   margin: 15px;
+  
+}
+
+.footer .copyright .icons a
+{
+   text-decoration: none;
+   color: #6A6E71
+}
+/*End copyright*/
+/*End Footer*/
